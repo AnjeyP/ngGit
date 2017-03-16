@@ -1,5 +1,3 @@
-var productListApp = angular.module("productListApp", []);
-
         // Controller
 
         productListApp.controller("productListCtrl", function ($scope) {

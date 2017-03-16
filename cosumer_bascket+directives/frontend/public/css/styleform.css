@@ -1,0 +1,35 @@
+/* rule for elements user do not interact*/
+        form .ng-pristine {
+            border: 1px dotted gray;
+        }
+
+       
+        /* This rule for all invalid elements which user interact*/
+        form .ng-invalid.ng-dirty {
+            background-color: lightpink;
+        }
+
+       
+        /* This rule for all valid elements after user interaction*/
+        form .ng-valid.ng-dirty {
+            background-color: lightgreen;
+        }
+
+        
+        /* this class used for non valid email fields  */
+        form .ng-invalid-email {
+            color: red;
+        }
+
+        /*
+            Validation occurs after each change in the form.
+            The following two rules are used for the span element at the end of the form.
+        */
+        span.summary.ng-invalid {
+            color: red;
+            font-weight: bold;
+        }
+
+        span.summary.ng-valid {
+            color: green;
+        }
